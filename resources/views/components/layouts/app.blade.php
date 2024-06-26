@@ -15,8 +15,16 @@
     <body>
 
 
-        <div>
+        <div class="w-screen h-screen font-poppine flex">
+
+            {{-- Home Navbar --}}
+            @livewire('home.comp.nav-bar')
+
             {{ $slot }}
+
+            {{-- Latest Pg --}}
+            @livewire('home.comp.latest-pg')
+            
         </div>
 
         {{-- Livewire-scrip --}}

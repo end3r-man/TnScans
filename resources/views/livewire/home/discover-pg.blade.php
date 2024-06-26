@@ -1,6 +1,5 @@
-<div class="h-full w-[70%]">
+<div>
     <div class="w-full h-full">
 
-        
     </div>
 </div>
