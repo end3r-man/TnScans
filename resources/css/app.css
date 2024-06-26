@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .center {
+        @apply flex justify-center items-center;
+    }
+
+    .between {
+        @apply flex justify-between items-center;
+    }
+
+    .m-active {
+        @apply text-[#345B63] border-r-2 border-[#345B63]
+    }
+}

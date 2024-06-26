@@ -1,7 +1,9 @@
 <?php
 
+use App\Livewire\Home\IndexPg;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
+/*==================Guest Routes==================*/
+Route::group(['/'], function () {
+    Route::get('/', IndexPg::class)->name('index');
 });
